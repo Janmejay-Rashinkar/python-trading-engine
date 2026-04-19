@@ -17,6 +17,9 @@ A modular algorithmic trading engine built in Python with support for strategy d
 - Total return calculation
 - Volatility estimation
 
+## Visualization
+Plots equity curve using matplotlib for performance visualization.
+
 ## Run
 ```bash
 python main.py
