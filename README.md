@@ -1,25 +1,34 @@
 # Python Trading Engine
 
-A modular algorithmic trading engine built in Python with support for strategy development and backtesting.
+A modular algorithmic trading engine built in Python for strategy development, backtesting, performance analytics, and visualization.
+
 
 ## Features
-- CSV market data ingestion
-- SMA crossover strategy
-- Simple backtesting engine
-- Portfolio value computation
+
+- Historical market data ingestion from CSV
+- SMA crossover trading strategy
+- Backtesting engine with portfolio simulation
+- Performance metrics (return, volatility)
+- Equity curve visualization using matplotlib
+
 
 ## Project Structure
-- data → data loading
-- strategies → trading strategies
-- backtester → backtesting logic
 
-## Performance Metrics
-- Total return calculation
-- Volatility estimation
+python-trading-engine/
+│
+├── data → market data loader and sample dataset  
+├── strategies → trading strategy logic (SMA)  
+├── backtester → backtesting and portfolio simulation  
+├── utils → performance metrics and plotting  
+└── main.py → execution entry point  
 
-## Visualization
-Plots equity curve using matplotlib for performance visualization.
 
-## Run
+## Tech Stack
+
+Python, Pandas, Matplotlib
+
+
+## How to Run
+
 ```bash
 python main.py
