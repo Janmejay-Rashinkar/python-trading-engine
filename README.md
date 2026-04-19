@@ -13,6 +13,10 @@ A modular algorithmic trading engine built in Python with support for strategy d
 - strategies → trading strategies
 - backtester → backtesting logic
 
+## Performance Metrics
+- Total return calculation
+- Volatility estimation
+
 ## Run
 ```bash
 python main.py
